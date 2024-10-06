@@ -5,8 +5,8 @@ metadata:
   name: myapps
   namespace: flux-system
 spec:
-  #  dependsOn:
-  #  - name: mygw
+   dependsOn:
+   - name: mygw
   interval: 30m0s
   path: ./kustomize
   prune: true

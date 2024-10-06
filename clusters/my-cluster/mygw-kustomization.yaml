@@ -15,3 +15,8 @@ spec:
   targetNamespace: demoapp-gw
   timeout: 3m0s
   wait: true
+  healthChecks:
+    - apiVersion: apps/v1
+      kind: Deployment
+      name: cert-manager
+      namespace: cert-manager
