@@ -2,10 +2,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: myapps
+  name: cymbal-demo-apps
   namespace: flux-system
 spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://github.com/tsanghan/myapps
+  url: https://github.com/tsanghan/cymbal-demo-apps
